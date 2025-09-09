@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function FrameSeven(){
     return <>
-        <div className="flex w-full justify-between bg-purple-200">
+        <div className="flex w-full justify-between bg-purple-100">
             <div>
                 <Image
                     src="/images/Ellipses_frame_7_left.png"

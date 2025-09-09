@@ -32,8 +32,8 @@ export default function FrameOne(){
                 </div>
               </div>
               <div className="flex gap-5 text-[12px]">
-                <button className="rounded-3xl border-2 cursor-pointer border-white px-8 py-3">Download App</button>
-                <button className="rounded-3xl border-2 cursor-pointer border-white px-5 py-3 bg-[#453C89]">Start 7 Day Free Trial</button>
+                <button className="rounded-3xl border cursor-pointer border-white px-8 py-3">Download App</button>
+                <button className="rounded-3xl border cursor-pointer border-white px-5 py-3 bg-[#453C89]">Start 7 Day Free Trial</button>
               </div>
               <div className="text-xs">
                 Trusted by 46,000+ SMBs across India — recommended by GST Network.

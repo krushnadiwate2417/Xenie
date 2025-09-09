@@ -5,11 +5,12 @@ import FrameFive from "@/frames/FrameFive";
 import Image from "next/image";
 import FrameSeven from "@/frames/FrameSeven";
 import FrameEight from "@/frames/FrameEight";
+import FrameFour from "@/frames/FrameFour";
+import FrameSix from "@/frames/FrameSix";
 
 export default function Home() {
   return (
     <>
-      {/* Background Image */}
       <div className="relative h-fit w-full">
         <Image
           src="/images/frame_1_bg.png"
@@ -19,16 +20,17 @@ export default function Home() {
           className="object-cover"
         />
 
-        {/* Fixed Header */}
+
         <div className="fixed top-0 left-0 w-full mt-6 z-50 flex justify-center">
           <Header />
         </div>
 
-        {/* Main Content */}
         <FrameOne/>
       </div>
         <FrameTwo/>
+        <FrameFour/>
         <FrameFive/>
+        <FrameSix/>
         <FrameSeven/>
         <FrameEight/>
     </>
