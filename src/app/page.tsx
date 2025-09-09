@@ -3,6 +3,8 @@ import FrameOne from "@/frames/FrameOne";
 import FrameTwo from "@/frames/FrameTwo";
 import FrameFive from "@/frames/FrameFive";
 import Image from "next/image";
+import FrameSeven from "@/frames/FrameSeven";
+import FrameEight from "@/frames/FrameEight";
 
 export default function Home() {
   return (
@@ -27,6 +29,8 @@ export default function Home() {
       </div>
         <FrameTwo/>
         <FrameFive/>
+        <FrameSeven/>
+        <FrameEight/>
     </>
   );
 }
