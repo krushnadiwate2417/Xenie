@@ -7,6 +7,7 @@ import FrameSeven from "@/frames/FrameSeven";
 import FrameEight from "@/frames/FrameEight";
 import FrameFour from "@/frames/FrameFour";
 import FrameSix from "@/frames/FrameSix";
+import FrameThree from "@/frames/FrameThree";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         <FrameOne/>
       </div>
         <FrameTwo/>
+        <FrameThree/>
         <FrameFour/>
         <FrameFive/>
         <FrameSix/>
