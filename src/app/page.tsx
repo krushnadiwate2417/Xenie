@@ -14,6 +14,13 @@ export default function Home() {
     <>
       <div className="relative h-fit w-full">
         <Image
+          src="/images/frame_1_overlay.svg"
+          alt="linear"
+          fill
+          priority
+          className="object-cover"
+        />
+        <Image
           src="/images/frame_1_bg.png"
           alt="Background"
           fill

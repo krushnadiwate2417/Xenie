@@ -42,7 +42,7 @@ export default function FrameOne(){
           </div>
           <div className="mt-20 ml-24">
             <Image
-              src="/images/frame_1_mobile.png"
+              src="/images/iphone_frame_1.svg"
               alt="Mobile_png"
               width={700}
               height={650}

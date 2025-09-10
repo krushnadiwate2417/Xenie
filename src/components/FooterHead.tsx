@@ -10,8 +10,14 @@ const imagesUrl : string[]=[
 export default function FooterHead(){
     return <>
         <div className=" flex justify-between mt-14 mb-9 pb-10 mx-32 border-b border-b-white">
-            <div className="text-5xl text-white">
-                LOGO
+            <div>
+                <Image
+                    src="/images/Main_logo_foot.svg"
+                    alt="Main_Logo"
+                    width={150}
+                    height={150}
+                    priority
+                />
             </div>
             <div className="flex gap-3">
                 {imagesUrl.map((url=>(

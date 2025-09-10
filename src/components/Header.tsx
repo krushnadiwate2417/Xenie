@@ -1,9 +1,19 @@
+import Image from "next/image";
+
 export default function Header() {
   return (
     <div className="header flex w-full mx-24 bg-white py-7 px-20 items-center justify-between shadow-md">
       {/* Logo */}
       <div>
-        <h1 className="text-3xl font-bold">Xeine</h1>
+        <div>
+          <Image
+            src="/images/Main_Logo.svg"
+            alt="Main_Logo"
+            width={100}
+            height={100}
+            priority
+          />
+        </div>
       </div>
 
       {/* Navigation */}

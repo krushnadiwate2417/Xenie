@@ -5,20 +5,26 @@ export default function FrameFour() {
   return (
     <>
       <div className="relative h-screen w-full ">
-
+        <Image
+          src="/images/frame_4_overlay.svg"
+          alt="Background"
+          fill
+          priority
+          className="object-cover rounded-tl-4xl rounded-tr-4xl"
+        />
         <Image
           src="/images/frame_4_bg.png"
           alt="Background"
           priority
           fill
-          className="object-cover z-0 rounded-tl-4xl rounded-tr-4xl"
+          className="object-cover z-10 opacity-50 rounded-tl-4xl rounded-tr-4xl"
         />
         <Image
           src="/images/Ellipse_frame_4.png"
           alt="Ellipse"
           priority
           fill
-          className="object-cover z-10"
+          className="object-cover z-20 "
         />
 
         <div className="relative z-20 flex flex-col gap-6 items-center justify-center h-full text-white">
