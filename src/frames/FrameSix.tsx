@@ -55,11 +55,19 @@ export default function FrameSix(){
                 <div className="text-2xl text-center font-semibold  mb-10">
                     Frequently Asked Questions about <span className="text-[#453C89]"> XenieBooks </span>
                 </div>
-                <div className="grid grid-cols-2 grid-rows-5 gap-6">
-                    {faqs.map((obj,idx)=>(
+                <div className="grid grid-cols-2 gap-6">
+                  <div className="flex flex-col gap-6">
+                      {faqs.slice(0,5).map((obj,idx)=>(
                         <div key={idx}><QuestionCard question={obj.question} answer={obj.answer} /></div>
                     ))}
+                    </div>
+                    <div className="flex flex-col gap-6">
+                      {faqs.slice(5,10).map((obj,idx)=>(
+                        <div key={idx}><QuestionCard question={obj.question} answer={obj.answer} /></div>
+                    ))}
+                    </div>
                 </div>
+                    
             </div>
         </div>
     </>
