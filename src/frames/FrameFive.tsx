@@ -1,3 +1,5 @@
+"use client";
+
 import Card, { EnhancedCard } from "@/components/Card"
 import OfferingCard from "@/components/OfferingCard";
 
@@ -18,7 +20,7 @@ export default function FrameFive(){
                 <div className="text-3xl font-bold mt-20">Simplify your business operation with <span className="text-[#453C89]">XenieBooks</span> </div>
                 <div className="text-neutral-600 text-sm">Choose a plan that suits your business, and we'll support you every step of the way.</div>
             </div>
-            <div className="flex gap-7   justify-center items-baseline-last">
+            <div className="flex gap-7   justify-center items-center">
                 {dummyData.map((obj)=>(
                     <div className={`mb-16 mt-14 `} key={obj.league}>
                         {
