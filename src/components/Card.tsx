@@ -21,7 +21,7 @@ export default function Card({ heading, plan, price, desc, isBest }: CardProps){
     return <>
        
         <div onMouseEnter={()=>setHidden(false)} onMouseLeave={()=>setHidden(true)}
-        className={` h-[22rem] bg-white rounded-4xl
+        className={` h-[22rem] bg-white rounded-4xl cursor-pointer
           ${isBest ? "w-[17rem]" : "w-72"} 
             hover:shadow-[0_0_15px_rgba(69,60,137,0.6)]
         `}

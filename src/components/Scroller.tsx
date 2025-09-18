@@ -9,9 +9,9 @@ interface Scroll {
 
 const scoll : Scroll[] = [
     {heading : "Mobile-First & Multi Platform 1", subHedading : "Manage your business on the go using Android, iOS, or desktop. Voice features work seamlessly across all platforms."},
-    {heading : "Mobile-First & Multi Platform 2", subHedading : "Manage your business on the go using Android, iOS, or desktop. Voice features work seamlessly across all platforms."},
-    {heading : "Mobile-First & Multi Platform 3", subHedading : "Manage your business on the go using Android, iOS, or desktop. Voice features work seamlessly across all platforms."},
-    {heading : "Mobile-First & Multi Platform 4", subHedading : "Manage your business on the go using Android, iOS, or desktop. Voice features work seamlessly across all platforms."},
+    {heading : "User-Friendly Interface", subHedading : "Intuitive, clean design tailored for MSMEs ensures you can navigate quickly—no technical training needed."},
+    {heading : "Automation & Insightful Reporting", subHedading : "Minimize manual errors with automation. Get detailed reports to make smarter,faster decisions."},
+    {heading : "Change-Proof", subHedading : "Always upto date with latest GST reforms and statutory updates."},
 ]
 
 
