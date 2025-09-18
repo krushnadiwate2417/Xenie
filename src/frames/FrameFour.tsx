@@ -47,21 +47,36 @@ export default function FrameFour() {
           <div className="flex gap-24 items-center">
               <div>
                 <button 
-                className="hover:shadow-2xl hover:brightness-200 hover:shadow-white cursor-pointer border border-white rounded-full px-6 py-4"
+                className=" hover:brightness-200 hover:shadow-[0_0_10px_rgba(255,255,255,1)] cursor-pointer border border-white rounded-full p-2.5"
                 onClick={()=>{
                   setTestimonalNum((curr)=>Math.abs((curr - 1)%dummyTestimonials.length))
                 }}
-                >L</button>
+                >
+                    <Image
+                    src="/images/left.svg"
+                    alt="arrow-left"
+                    height={50}
+                    width={50}
+                    />
+                </button>
               </div>
 
               <CarouselCard imgSrc={dummyTestimonials[testimoalNum].imgSrc} name={dummyTestimonials[testimoalNum].name} bussiness={dummyTestimonials[testimoalNum].bussiness} testimonal={dummyTestimonials[testimoalNum].testimoal} />
 
               <div><button 
-              className="hover:shadow-2xl hover:brightness-200 hover:shadow-white cursor-pointer border border-white rounded-full px-6 py-4"
+              className="hover:brightness-200 hover:shadow-[0_0_10px_rgba(255,255,255,1)] cursor-pointer border border-white rounded-full p-2.5"
               onClick={()=>{
                   setTestimonalNum((curr)=>Math.abs((curr + 1)%dummyTestimonials.length))
                 }}
-              >R</button></div>
+              >
+                <Image
+                    src="/images/right.svg"
+                    alt="arrow-right"
+                    height={50}
+                    width={50}
+                    />
+
+              </button></div>
           </div>
         </div>
       </div>

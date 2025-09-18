@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <div className="header flex w-full mx-24 bg-white py-7 px-20 items-center justify-between shadow-md">
+    <div className="header flex w-full mx-24 bg-white py-7 px-20 items-center justify-between shadow-[0_0_30px_rgba(0,0,0,3)]">
       {/* Logo */}
       <div>
         <div>

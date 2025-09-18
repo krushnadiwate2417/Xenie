@@ -11,7 +11,7 @@ import FrameThree from "@/frames/FrameThree";
 
 export default function Home() {
   return (
-    <>
+    <div className="scrollbar-hide overflow-y-scroll">
       <div className="relative h-fit w-full">
         <Image
           src="/images/frame_1_overlay.svg"
@@ -42,6 +42,6 @@ export default function Home() {
         <FrameSix/>
         <FrameSeven/>
         <FrameEight/>
-    </>
+    </div>
   );
 }

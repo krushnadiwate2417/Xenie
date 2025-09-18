@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 
 const offerings : string[] = [
     "E-Way Bill","14 Days Free Trial","Current account tracking","Inventory tracking", "Android and iOS mobile use","Cash & Bank Reconcillation",
@@ -8,14 +8,20 @@ const offerings : string[] = [
 
 export default function OfferingCard(){
     return <>
-        <div className="w-fit bg-white grid gap-8 justify-items-center justify-self-center rounded-4xl px-[213px] py-10">
+        <div className="w-fit bg-white grid gap-8 justify-items-center justify-self-center rounded-4xl px-44 py-10">
             <div className="text-3xl font-bold">
                 Our offerings for all the above plans
             </div>
 
             <div className="grid grid-cols-3 grid-rows-6 gap-x-12 gap-y-3.5 text-[15px]">
                 {offerings.map(vals => (
-                <div key={vals}>{vals}</div>
+                <div key={vals} className="flex gap-2.5">
+                   <Image
+                    src="/images/check.svg"
+                    alt="check"
+                    width={25}
+                    height={25}
+                   /> {vals}</div>
                 ))}
             </div>
 
