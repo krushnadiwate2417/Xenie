@@ -1,59 +1,61 @@
 import QuestionCard from "@/components/QuestionCard";
+import data from "@/utils/data.json";
 
-interface FAQ {
-  question: string;
-  answer: string;
-}
+// interface FAQ {
+//   question: string;
+//   answer: string;
+// }
+  const {faqs,heading} = data.frameSix
 
-const faqs: FAQ[] = [
-  {
-    question: "What is XenieBooks ?",
-    answer: "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
-  },
-  {
-    question: "Which languages does Xenie support?",
-    answer: "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
-  },
-  {
-    question: "What devices can I use Xenie on?",
-    answer: "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
-  },
-  {
-    question: "How much does Xenie Books cost?",
-    answer: "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
-  },
-  {
-    question: "Why Small Businesses Need Billing Software",
-    answer: "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
-  },
-  {
-    question: "How does voice-based management work?",
-    answer: "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
-  },
-  {
-    question: "Is Xenie Books GST complaint?",
-    answer: "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
-  },
-  {
-    question: "How secure is my data?",
-    answer: "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
-  },
-  {
-    question: "What if I face issues or need help?",
-    answer: "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
-  },
-  {
-    question: "What if I face issues or need help?",
-    answer: "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
-  }
-];
+//: FAQ[] = [
+//   {
+//     question: "What is XenieBooks ?",
+//     answer: "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
+//   },
+//   {
+//     question: "Which languages does Xenie support?",
+//     answer: "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
+//   },
+//   {
+//     question: "What devices can I use Xenie on?",
+//     answer: "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
+//   },
+//   {
+//     question: "How much does Xenie Books cost?",
+//     answer: "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
+//   },
+//   {
+//     question: "Why Small Businesses Need Billing Software",
+//     answer: "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
+//   },
+//   {
+//     question: "How does voice-based management work?",
+//     answer: "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
+//   },
+//   {
+//     question: "Is Xenie Books GST complaint?",
+//     answer: "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
+//   },
+//   {
+//     question: "How secure is my data?",
+//     answer: "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
+//   },
+//   {
+//     question: "What if I face issues or need help?",
+//     answer: "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
+//   },
+//   {
+//     question: "What if I face issues or need help?",
+//     answer: "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
+//   }
+// ];
 
 export default function FrameSix(){
     return <>
         <div className="bg-neutral-100 pb-16">
             <div className="mx-36">
                 <div className="text-2xl text-center font-semibold  mb-10">
-                    Frequently Asked Questions about <span className="text-[#453C89]"> XenieBooks </span>
+                    {heading.split(" ").slice(0,heading.length-1).join(" ")} <span className="text-[#453C89]"> {heading.split(" ")[heading.length-1]} </span>
                 </div>
                 <div className="grid grid-cols-2 gap-6">
                   <div className="flex flex-col gap-6">

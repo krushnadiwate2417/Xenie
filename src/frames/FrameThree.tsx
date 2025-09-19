@@ -1,6 +1,8 @@
 import Scroller from "@/components/Scroller"
 import Image from "next/image"
+import data from "@/utils/data.json";
 
+const {genieImage,lampImage} = data.frameThree;
 
 export default function FrameThree(){
     return <>
@@ -12,7 +14,7 @@ export default function FrameThree(){
                 <div>
                     <div className="w-[150px] h-[150px] mb-28 mr-[12.5rem]">
                         <Image
-                            src="/images/genie_frame_3.png"
+                            src={genieImage}
                             alt="genie"
                             priority
                             width={300}
@@ -21,7 +23,7 @@ export default function FrameThree(){
                     </div>
                     <div className="flex justify-self-end">
                         <Image
-                            src="/images/lamp_frame_3.png"
+                            src={lampImage}
                             alt="lamp"
                             priority
                             width={300}

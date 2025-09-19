@@ -2,29 +2,31 @@
 
 import Image from "next/image"
 import { useState } from "react";
+import data from "@/utils/data.json";
 
+const {objectives} = data.frameTwo;
 
-interface Objectives{
-    leftImageID : string,
-    heading : string,
-    subHeading : string,
-    rightImage : string,
-    bgColor : string,
-    hex : string
-}
+// interface Objectives{
+//     leftImageID : string,
+//     heading : string,
+//     subHeading : string,
+//     rightImage : string,
+//     bgColor : string,
+//     hex : string
+// }
 
-const objectives : Objectives[] = [
-    {leftImageID : "/images/Ellipse_1_frame_2.svg", heading : "Make Your Bussiness Vocal", subHeading : "India speaks many languages—and Xenie understands them. Navigate invoicing, stock, customers, and reports by speaking your commands. No typing. Just speak.",rightImage : "/images/One_frame_2.svg", bgColor : "(255,181,49,0.6)", hex :"#FACC15"},
+// const objectives : Objectives[] = [
+//     {leftImageID : "/images/Ellipse_1_frame_2.svg", heading : "Make Your Bussiness Vocal", subHeading : "India speaks many languages—and Xenie understands them. Navigate invoicing, stock, customers, and reports by speaking your commands. No typing. Just speak.",rightImage : "/images/One_frame_2.svg", bgColor : "(255,181,49,0.6)", hex :"#FACC15"},
     
-    {leftImageID : "/images/Ellipse_2_frame_2.svg", heading : "Simplified GST Compliance & Invoicing", subHeading : "Generate GST-compliant invoices and e-way bills quickly, with accurate tax calculations. Stay compliant with continuously updated regulations.",rightImage : "/images/Two_frame_2.svg",bgColor : "(114, 99, 177, 1)",hex : "#7263B1"},
+//     {leftImageID : "/images/Ellipse_2_frame_2.svg", heading : "Simplified GST Compliance & Invoicing", subHeading : "Generate GST-compliant invoices and e-way bills quickly, with accurate tax calculations. Stay compliant with continuously updated regulations.",rightImage : "/images/Two_frame_2.svg",bgColor : "(114, 99, 177, 1)",hex : "#7263B1"},
 
-    {leftImageID : "/images/Ellipse_3_frame_2.svg", heading : "Manage Inventory with Ease", subHeading : "Check available stock, ask for reorder levels, or track items at party- and product-level all via voice.",rightImage : "/images/Three_frame_2.svg",bgColor : "(244, 124, 139, 1)",hex : "#F47C8B"},
+//     {leftImageID : "/images/Ellipse_3_frame_2.svg", heading : "Manage Inventory with Ease", subHeading : "Check available stock, ask for reorder levels, or track items at party- and product-level all via voice.",rightImage : "/images/Three_frame_2.svg",bgColor : "(244, 124, 139, 1)",hex : "#F47C8B"},
 
-    {leftImageID : "/images/Ellipse_4_frame_2.svg", heading : "Smart Business Assistant", subHeading : "Xenie is more than software. It’s your voice-enabled business partner that provides: Real-time insights on sales trends and inventory needs \n Best-performing products or services  Identification of top customers and logistical cost optimization  Compliance with GST regulations—by simply asking",rightImage : "/images/Four_frame_2.svg", bgColor: "(185, 218, 178, 1)", hex : "#B9DAB2"},
+//     {leftImageID : "/images/Ellipse_4_frame_2.svg", heading : "Smart Business Assistant", subHeading : "Xenie is more than software. It’s your voice-enabled business partner that provides: Real-time insights on sales trends and inventory needs \n Best-performing products or services  Identification of top customers and logistical cost optimization  Compliance with GST regulations—by simply asking",rightImage : "/images/Four_frame_2.svg", bgColor: "(185, 218, 178, 1)", hex : "#B9DAB2"},
 
-    {leftImageID : "/images/Ellipse_5_frame_2.svg", heading : "Full Business Suite", subHeading : "Voice or tap to access features like: Sales and purchase invoicing Cash and bank reconciliation Expense, order, and payment tracking Barcode scanning and customized invoice templates E-way bill and e-invoice generation Delivery challan support",rightImage : "/images/Five_frame_2.svg",bgColor: "(69, 60, 137, 1)",hex : "#453C89"},
+//     {leftImageID : "/images/Ellipse_5_frame_2.svg", heading : "Full Business Suite", subHeading : "Voice or tap to access features like: Sales and purchase invoicing Cash and bank reconciliation Expense, order, and payment tracking Barcode scanning and customized invoice templates E-way bill and e-invoice generation Delivery challan support",rightImage : "/images/Five_frame_2.svg",bgColor: "(69, 60, 137, 1)",hex : "#453C89"},
 
-] 
+// ] 
 
 
 export default function FrameTwo(){

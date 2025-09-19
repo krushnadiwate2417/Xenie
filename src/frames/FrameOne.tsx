@@ -1,4 +1,8 @@
 import Image from "next/image"
+import data from "@/utils/data.json";
+
+const {contentOne,contentTwo,headingOne,headingTwo,subHeading,tagline} = data.frameOne;
+
 
 export default function FrameOne(){
     return <>
@@ -14,21 +18,19 @@ export default function FrameOne(){
             />
             <div className="absolute inset-0  text-neutral-50 flex flex-col justify-center self-center gap-9 mt-[90px] pl-24">
               <div className="flex flex-col gap-2 font-semibold">
-                <div className="text-yellow-500 text-5xl">India's First</div>
-                <div className=" text-5xl">Voice-Powered GST Billing</div>
-                <div className=" text-5xl">& Inventory Platform</div>
+                <div className="text-yellow-500 text-5xl">{headingOne}</div>
+                <div className=" text-5xl max-w-xl leading-14">{headingTwo}</div>
 
               </div>
               <div className="text-neutral-400 text-lg w-fit pr-24 leading-6">
-                Transform how your business speaks—create invoices, manage stock, track GST, and more—all through voice. Designed for India’s
-              multilingual businesses.
+                {subHeading}
               </div>
               <div className="flex gap-5 text-sm">
                 <div>
-                  Trusted by 46,000+ SMBs Across India
+                  {contentOne}
                 </div>
                 <div>
-                  Trusted by 46,000+ SMBs Across India
+                  {contentTwo}
                 </div>
               </div>
               <div className="flex gap-5 text-[12px]">
@@ -36,7 +38,7 @@ export default function FrameOne(){
                 <button className="rounded-3xl border cursor-pointer border-white px-5 py-3 bg-[#453C89]">Start 7 Day Free Trial</button>
               </div>
               <div className="text-xs">
-                Trusted by 46,000+ SMBs across India — recommended by GST Network.
+                {tagline}
               </div>
             </div>
           </div>

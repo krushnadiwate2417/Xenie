@@ -1,5 +1,6 @@
+import data from "@/utils/data.json";
 
-
+const {frameEight} = data;
 
 export default function FooterFoot(){
     return <>
@@ -9,19 +10,19 @@ export default function FooterFoot(){
             </div>
             <div>
                 <div className="text-[10px] text-neutral-400 mb-2">CONTACT</div>
-                <div className="text-xs  text-white">+91 9240237923</div>
+                <div className="text-xs  text-white">{frameEight.mobileNumber}</div>
             </div>
             <div className="me-60">
                 <div className="text-[10px] text-neutral-400 mb-2">EMAIL</div>
-                <div className="text-xs text-white">support@XenieBooks.com</div>
+                <div className="text-xs text-white">{frameEight.email}</div>
             </div>
             <div>
                 <div className="text-[10px] text-neutral-400 mb-2">ADDRESS</div>
-                <div className="text-xs text-white ">H- 87, Sector- 63 Noida Gautam Buddha Nagar Uttar Pradesh <br/> Gautam Buddha Nagar UP 201301 IN</div>
+                <div className="text-xs text-white max-w-xs">{frameEight.address}</div>
             </div>
         </div>
         <div className="text-white text-[8px] ml-32 mb-14">
-            &#169; Copyright XenieBooks. All Rights Reserved.
+            &#169; {frameEight.rights}
         </div>
     </>
 }

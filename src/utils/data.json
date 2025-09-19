@@ -1,0 +1,201 @@
+{
+    "frameOne" : {
+        "headingOne" : "India's First",
+        "headingTwo" : "Voice-Powered GST Billing & Inventory Platform",
+        "subHeading" : "Transform how your business speaks—create invoices, manage stock, track GST, and more—all through voice. Designed for India’s multilingual businesses.",
+        "contentOne" : "Trusted by 46,000+ SMBs Across India",
+        "contentTwo" : "Trusted by 46,000+ SMBs Across India",
+        "tagline" : "Trusted by 46,000+ SMBs across India — recommended by GST Network."
+    },
+
+
+    "frameTwo" : {
+        "objectives" : [
+            {"leftImageID" : "/images/Ellipse_1_frame_2.svg", "heading" : "Make Your Bussiness Vocal", "subHeading" : "India speaks many languages—and Xenie understands them. Navigate invoicing, stock, customers, and reports by speaking your commands. No typing. Just speak.","rightImage" : "/images/One_frame_2.svg", "bgColor" : "(255,181,49,0.6)", "hex" :"#FACC15"},
+    
+            {"leftImageID" : "/images/Ellipse_2_frame_2.svg", "heading" : "Simplified GST Compliance & Invoicing", "subHeading" : "Generate GST-compliant invoices and e-way bills quickly, with accurate tax calculations. Stay compliant with continuously updated regulations.","rightImage" : "/images/Two_frame_2.svg","bgColor" : "(114, 99, 177, 1)","hex" : "#7263B1"},
+
+            {"leftImageID" : "/images/Ellipse_3_frame_2.svg", "heading" : "Manage Inventory with Ease", "subHeading" : "Check available stock, ask for reorder levels, or track items at party- and product-level all via voice.","rightImage" : "/images/Three_frame_2.svg","bgColor" : "(244, 124, 139, 1)","hex" : "#F47C8B"},
+
+            {"leftImageID" : "/images/Ellipse_4_frame_2.svg", "heading" : "Smart Business Assistant", "subHeading" : "Xenie is more than software. It’s your voice-enabled business partner that provides: Real-time insights on sales trends and inventory needs \n Best-performing products or services  Identification of top customers and logistical cost optimization  Compliance with GST regulations—by simply asking","rightImage" : "/images/Four_frame_2.svg", "bgColor": "(185, 218, 178, 1)", "hex" : "#B9DAB2"},
+
+            {"leftImageID" : "/images/Ellipse_5_frame_2.svg", "heading" : "Full Business Suite", "subHeading" : "Voice or tap to access features like: Sales and purchase invoicing Cash and bank reconciliation Expense, order, and payment tracking Barcode scanning and customized invoice templates E-way bill and e-invoice generation Delivery challan support","rightImage" : "/images/Five_frame_2.svg","bgColor": "(69, 60, 137, 1)","hex" : "#453C89"}]
+    },
+
+    "frameThree" : {
+        "scoll" : [{"heading" : "Mobile-First & Multi Platform 1", "subHedading" : "Manage your business on the go using Android, iOS, or desktop. Voice features work seamlessly across all platforms."},
+    {"heading" : "User-Friendly Interface", "subHedading" : "Intuitive, clean design tailored for MSMEs ensures you can navigate quickly—no technical training needed."},
+    {"heading" : "Automation & Insightful Reporting", "subHedading" : "Minimize manual errors with automation. Get detailed reports to make smarter,faster decisions."},
+    {"heading" : "Change-Proof", "subHedading" : "Always upto date with latest GST reforms and statutory updates."}],
+        "genieImage" : "/images/genie_frame_3.png",
+        "lampImage" : "/images/lamp_frame_3.png"
+    },
+
+    "frameFour" : {
+        "imageOne" : "/images/frame_4_overlay.svg",
+        "imageTwo" : "/images/frame_4_bg.png",
+        "imageThree" : "/images/Ellipse_frame_4.png",
+
+        "heading" : "Always up-to-date with the latest GST reforms and statutory updates.",
+        "subHeadingOne" : "Always up-to-date with the latest GST reforms and statutory updates.",
+        "subHeadingTwo" : "GST Billing Software for Top Manufacturers",
+
+        "arrowLeft" : "/images/left.svg",
+        "arrowRight" : "/images/right.svg",
+
+        "dummyTestimonials" : [
+            {"imgSrc" : "/images/HumanImage_frame_4.png","name" : "Rajendra","bussiness" : "Delhi Retailer","testimoal" : "Being able to speak and see invoices pop up is game-changing"},
+            {"imgSrc" : "/images/HumanImage2_frame_4.svg","name" : "Hanumant","bussiness" : "Maharashtra Retailer","testimoal" : "Understanding of language is important as so is invoices"}]
+    },
+
+    "frameFive" : {
+        "dummyData" : [
+        {"league" : "Bronze", "plan" : "3 Month Plan", "price" : 1999, "description" : "Best for trial use", "bestSeller" : false},
+        {"league" : "Copper", "plan" : "1 Year Plan", "price" : 4999, "description" : "Ideal for growing bussiness", "bestSeller" : true},
+        {"league" : "Silver", "plan" : "2 Year Plan", "price" : 7999, "description" : "Cost effective long term solution", "bestSeller" : false},
+        {"league" : "Gold", "plan" : "3 Year Plan", "price" : 11999, "description" : "Maximum value and stability", "bestSeller" : false}
+        ],
+        "heading" : "Simplify your business operation with XenieBooks",
+        "subHeading" : "Choose a plan that suits your business, and we'll support you every step of the way.",
+        "offerings" : [
+            "E-Way Bill","14 Days Free Trial","Current account tracking","Inventory tracking", "Android and iOS mobile use","Cash & Bank Reconcillation",
+            "E-Invoice","Order tracking","Collection and payment tracking","Customer check entry","View stocks at party & product level","Expense management",
+            "Issue purchase / sales invoice","Editing a self-employment reciept","Cash and bank transaction tracking","Customized invoice template","Scan Barcode & create invoices","IMEI and serial no. addition"
+        ],
+        "offeringHeading" : "Our offerings for all the above plans",
+        "offeringTagline" : "Voice-enabled GST invoicing, e-way bills, inventory tracking, order & payment monitoring,expense management, customized templates, and barcode scanning"
+    },
+
+    "frameSix" : {
+        "heading" : "Frequently Asked Questions about XenieBooks",
+        "faqs" : [
+            {
+                "question": "What is XenieBooks ?",
+                "answer": "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
+            },
+            {
+                "question": "Which languages does Xenie support?",
+                "answer": "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
+            },
+            {
+                "question": "What devices can I use Xenie on?",
+                "answer": "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
+            },
+            {
+                "question": "How much does Xenie Books cost?",
+                "answer": "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
+            },
+            {
+                "question": "Why Small Businesses Need Billing Software",
+                "answer": "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
+            },
+            {
+                "question": "How does voice-based management work?",
+                "answer": "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
+            },
+            {
+                "question": "Is Xenie Books GST complaint?",
+                "answer": "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
+            },
+            {
+                "question": "How secure is my data?",
+                "answer": "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
+            },
+            {
+                "question": "What if I face issues or need help?",
+                "answer": "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
+            },
+            {
+                "question": "What if I face issues or need help?",
+                "answer": "Webflow stands out as the leading no-code platform by giving users complete creative control over their websites without relying on developers."
+            }
+        ]
+    },
+
+    "frameSeven" : {
+        "imageOne" : "/images/Ellipses_frame_7_left.png",
+        "imageTwo" : "/images/Ellipses_frame_7_right.png",
+        "heading" : "Start using XenieBooks Billing Software Today",
+        "subHeading" : "Sign Up & Try Xenie - Free For 7 Days!",
+        "tagline" : "Stay Vocal. Stay Compliant. Grow Smarter."
+    },
+
+    "frameEight" : {
+        "imageOne" : "/images/Ellipses_frame_8.png",
+        "logo" : "/images/Main_logo_foot.svg",
+        "socialMedia" : [
+            "/images/facebook.png",
+            "/images/insta.png",
+            "/images/youtube.png",
+            "/images/telegram.png"
+        ],
+        "footerContent" : [
+            {
+                "heading": "XenieBooks Software",
+                "items": [
+                "Billing Software",
+                "Inventory Management Software",
+                "GST Calculator",
+                "Bill Book App",
+                "Barcode Scanner",
+                "GST Consultation Services"
+                ]
+            },
+            {
+                "heading": "Feature",
+                "items": [
+                "GST Reports",
+                "Customer Supplier Visibility",
+                "Sales Order Invoice",
+                "Purchase Order",
+                "Cash & Bank Reconciliation",
+                "Multi Company & Users",
+                "Tally Export",
+                "E- Way Bill",
+                "Barcode Scanner",
+                "WhatsApp Auto Send",
+                "Thermal Printer",
+                "Generate and share e-invoices",
+                "Delivery Challan"
+                ]
+            },
+            {
+                "heading": "Resources",
+                "items": [
+                "About Us",
+                "Tutorial",
+                "FAQ's",
+                "Media",
+                "Policy",
+                "Blogs",
+                "Data Security",
+                "Job and Culture"
+                ]
+            },
+            {
+                "heading": "Business Category we Serve",
+                "items": [
+                "Ad Agency Billing Software",
+                "Billing Software for Construction Company",
+                "Billing Software For Consultants",
+                "Billing Software For Contractors",
+                "Jewellery Billing Software",
+                "Billing Software For Farm",
+                "Billing Software For Lawyer",
+                "Billing Software For Freelancers",
+                "Billing Software For Photo Studio",
+                "Billing Software For Growing Business",
+                "Billing Software For Small Business",
+                "Billing Software For Salon",
+                "Billing Software For Real Estate",
+                "Billing Software For Personal",
+                "Billing Software For Online Billing Software"
+                ]
+            }
+        ],
+        "address" : "H- 87, Sector- 63 Noida Gautam Buddha Nagar Uttar Pradesh Gautam Buddha Nagar UP 201301 IN",
+        "email" : "support@XenieBooks.com",
+        "mobileNumber" : "+91 9240237923",
+        "rights" : "Copyright XenieBooks. All Rights Reserved."
+    }
+}

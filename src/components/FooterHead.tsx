@@ -1,18 +1,14 @@
 import Image from "next/image"
+import data from "@/utils/data.json"
 
-const imagesUrl : string[]=[
-    "/images/facebook.png",
-    "/images/insta.png",
-    "/images/youtube.png",
-    "/images/telegram.png",
-]
+const imagesUrl = data.frameEight.socialMedia;
 
 export default function FooterHead(){
     return <>
         <div className=" flex justify-between mt-14 mb-9 pb-10 mx-32 border-b border-b-white">
             <div>
                 <Image
-                    src="/images/Main_logo_foot.svg"
+                    src={data.frameEight.logo}
                     alt="Main_Logo"
                     width={150}
                     height={150}
