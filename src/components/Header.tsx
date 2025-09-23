@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <div className="header flex w-full mx-24 bg-white py-7 px-20 items-center justify-between shadow-[0_0_30px_rgba(0,0,0,3)]">
+    <div className="header flex w-full md:mx-20 lg:mx-24 bg-white md:py-3.5 md:px-12 md:justify-between lg:py-7 lg:px-20 items-center lg:justify-between shadow-[0_0_30px_rgba(0,0,0,3)]">
       {/* Logo */}
       <div>
         <div>
@@ -17,7 +17,7 @@ export default function Header() {
       </div>
 
       {/* Navigation */}
-      <div className="flex gap-7 text-xs items-center">
+      <div className="flex md:gap-6 lg:gap-7 md:text-[0.65rem] lg:text-xs items-center">
         <div>
           <label>Features</label>
           <select></select>
@@ -35,7 +35,7 @@ export default function Header() {
       </div>
 
       {/* Action Buttons */}
-      <div className="flex gap-7 text-xs items-center">
+      <div className="flex md:gap-5 lg:gap-7 md:text-[0.65rem] lg:text-xs items-center">
         <button className="cursor-pointer">Sign in</button>
         <button className="cursor-pointer bg-[#453C89] text-white py-2.5 px-5 rounded-3xl font-inter">
           Start Free Trial

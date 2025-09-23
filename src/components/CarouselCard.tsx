@@ -11,7 +11,7 @@ interface Carousal{
 
 export default function CarouselCard({imgSrc,name,bussiness,testimonal}:Carousal){
     return <>
-        <div className=" bg-white py-4 pl-4 pr-32 rounded-3xl text-black flex">
+        <div className=" bg-white py-4 pl-4 md:py-4 md:pl-4 md:pr-32 lg:py-4 lg:pl-4 lg:pr-32 rounded-3xl text-black flex">
             <div>
                 <Image 
                     src={imgSrc}
@@ -19,7 +19,7 @@ export default function CarouselCard({imgSrc,name,bussiness,testimonal}:Carousal
                     priority
                     width={200}
                     height={700}
-                    className="w-[220px] h-[250px]"
+                    className="lg:w-[220px] lg:h-[250px] md:w-[220px] md:h-[250px] w-[200px] h-[150px]"
                 />
             </div>
             <div className="grid grid-rows-2 ml-5 ">
@@ -27,7 +27,7 @@ export default function CarouselCard({imgSrc,name,bussiness,testimonal}:Carousal
                     <div className="font-bold text-xl mb-2">{name}</div>
                     <div className="text-sm text-neutral-400">{bussiness}</div>
                 </div>
-                <div className="max-w-48 text-sm text-neutral-400">“{testimonal}.”</div>
+                <div className="lg:max-w-48 pr-1.5 lg:pr-0 md:max-w-48  md:pr-0 text-sm text-neutral-400">“{testimonal}.”</div>
             </div>
         </div>
     </>

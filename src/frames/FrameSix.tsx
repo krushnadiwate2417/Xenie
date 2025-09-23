@@ -52,13 +52,13 @@ import data from "@/utils/data.json";
 
 export default function FrameSix(){
     return <>
-        <div className="bg-neutral-100 pb-16">
-            <div className="mx-36">
+        <div className="bg-neutral-100 pb-16 px-5 lg:px-0">
+            <div className="lg:mx-36">
                 <div className="text-2xl text-center font-semibold  mb-10">
                     {heading.split(" ").slice(0,heading.length-1).join(" ")} <span className="text-[#453C89]"> {heading.split(" ")[heading.length-1]} </span>
                 </div>
-                <div className="grid grid-cols-2 gap-6">
-                  <div className="flex flex-col gap-6">
+                <div className="lg:grid lg:grid-cols-2 lg:gap-6 md:grid md:grid-cols-2 md:gap-6">
+                  <div className="flex flex-col gap-6 pb-6 lg:pb-0">
                       {faqs.slice(0,5).map((obj,idx)=>(
                         <div key={idx}><QuestionCard question={obj.question} answer={obj.answer} /></div>
                     ))}

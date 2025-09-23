@@ -38,13 +38,26 @@ export default function FrameFour() {
         />
 
         <div className="relative z-20 flex flex-col gap-6 items-center justify-center h-full text-white">
-          <h1 className="text-3xl font-bold max-w-2xl text-center">{heading}</h1>
+          <h1 className="lg:text-3xl md:text-3xl text-2xl px-1 lg:px-0 md:px-0 font-bold max-w-2xl text-center">{heading}</h1>
           <div className="text-center text-sm text-neutral-200">{subHeadingOne}</div>
           <h1 className="text-xl font-semibold max-w-2xl text-yellow-400 text-center">{subHeadingTwo}</h1>
-          <div className="flex gap-24 items-center">
-              <div>
+          <div className="
+          grid grid-cols-2 gap-3
+          md:flex md:flex-row md:gap-24 md:items-center 
+          lg:flex lg:flex-row lg:gap-24 lg:items-center">
+
+              <div className="col-span-2 px-4 lg:px-0 md:order-2 lg:order-2">
+                <CarouselCard 
+                  imgSrc={dummyTestimonials[testimoalNum].imgSrc} 
+                  name={dummyTestimonials[testimoalNum].name} 
+                  bussiness={dummyTestimonials[testimoalNum].bussiness} 
+                  testimonal={dummyTestimonials[testimoalNum].testimoal}
+                />
+              </div>
+
+              <div className="lg:order-1 md:order-1 justify-self-center">
                 <button 
-                className=" hover:brightness-200 hover:shadow-[0_0_10px_rgba(255,255,255,1)] cursor-pointer border border-white rounded-full p-2.5"
+                className=" hover:brightness-200 lg:w-[75px] lg:h-[75px] w-[50px] h-[50px] hover:shadow-[0_0_10px_rgba(255,255,255,1)] cursor-pointer border border-white rounded-full p-2.5"
                 onClick={()=>{
                   setTestimonalNum((curr)=>Math.abs((curr - 1)%dummyTestimonials.length))
                 }}
@@ -58,10 +71,8 @@ export default function FrameFour() {
                 </button>
               </div>
 
-              <CarouselCard imgSrc={dummyTestimonials[testimoalNum].imgSrc} name={dummyTestimonials[testimoalNum].name} bussiness={dummyTestimonials[testimoalNum].bussiness} testimonal={dummyTestimonials[testimoalNum].testimoal} />
-
-              <div><button 
-              className="hover:brightness-200 hover:shadow-[0_0_10px_rgba(255,255,255,1)] cursor-pointer border border-white rounded-full p-2.5"
+              <div className="order-3 md:order-3 justify-self-center"><button 
+              className="hover:brightness-200 lg:w-[75px] lg:h-[75px] w-[50px] h-[50px] hover:shadow-[0_0_10px_rgba(255,255,255,1)] cursor-pointer border border-white rounded-full p-2.5"
               onClick={()=>{
                   setTestimonalNum((curr)=>Math.abs((curr + 1)%dummyTestimonials.length))
                 }}

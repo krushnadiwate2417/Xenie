@@ -76,11 +76,14 @@ const sections = data.frameEight.footerContent;
 
 export default function FooterGrid(){
     return <>
-        <div className="grid grid-cols-4 gap-x-5 justify-center ml-32 mr-24 mb-16 text-white">
+        <div className="
+        flex flex-col gap-8 pl-5 lg:pl-0
+        md:grid md:grid-cols-4 md:gap-x-5 md:justify-center md:mx-3 md:mb-16
+        lg:grid lg:grid-cols-4 lg:gap-x-5 lg:justify-center lg:ml-32 lg:mr-24 lg:mb-16 text-white ">
             {sections.map(obj=>(
-                <div key={obj.heading} className="flex flex-col gap-7">
+                <div key={obj.heading} className="flex flex-col lg:gap-7 gap-3">
                     <div className="text-xl font-semibold">{obj.heading}</div>
-                    <div className="flex flex-col gap-3 text-xs">{obj.items.map(vals=><div key={vals}>{vals}</div>)}</div>
+                    <div className="flex flex-col lg:gap-3 gap-2 text-xs">{obj.items.map(vals=><div key={vals}>{vals}</div>)}</div>
                 </div>
             ))}
         </div>

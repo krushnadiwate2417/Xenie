@@ -45,8 +45,8 @@ export default function FrameTwo(){
             }}
             />
 
-            <div className="grid grid-cols-3 relative z-10">
-                <div className={`${objectives[component].leftImageID === "/images/Ellipse_1_frame_2.svg" ?"ml-[-7rem]":"ml-[-14.5rem]"}`}>
+            <div className="lg:grid lg:grid-cols-3 md:grid md:grid-cols-3 relative z-10">
+                <div className={`hidden md:flex lg:flex ${objectives[component].leftImageID === "/images/Ellipse_1_frame_2.svg" ?"ml-[-7rem]":"ml-[-14.5rem]"}`}>
                     <Image
                         src={objectives[component].leftImageID}
                         alt="Elllipse"
@@ -56,15 +56,15 @@ export default function FrameTwo(){
                     />
                 </div>
 
-                <div className="flex flex-col justify-center gap-4 ">
-                    <div className={`text-2xl font-bold`}
+                <div className="flex flex-col items-center md:items-start lg:items-start justify-center py-20 md:py-0 md:px-0 lg:py-0 gap-4 px-4 lg:px-0">
+                    <div className={`text-2xl font-bold text-center md:text-left lg:text-left`}
                         style={{
                             color : `${objectives[component].hex}`
                         }}
                     >
                         {objectives[component].heading}
                     </div>
-                    <div className="text-[#4472C4] leading-5 text-base pr-20">
+                    <div className="text-[#4472C4] text-center md:text-left lg:text-left leading-5 text-base md:pr-20 lg:pr-20">
                         {objectives[component].subHeading}
                     </div>
                     <div>
@@ -72,7 +72,7 @@ export default function FrameTwo(){
                     </div>
                 </div>
 
-                <div className={`m-0 flex items-center justify-end  ${!(objectives[component].rightImage === "/images/One_frame_2.svg") && "mr-[-6rem]"} `}>
+                <div className={`m-0 lg:flex md:flex items-center justify-end hidden ${!(objectives[component].rightImage === "/images/One_frame_2.svg") && "md:mr-[-4rem] lg:mr-[-6rem]"} `}>
                     <Image
                         src={objectives[component].rightImage}
                         alt="ZeroOne"
