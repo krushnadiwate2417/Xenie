@@ -10,9 +10,9 @@ interface CardProps {
   isBest: boolean;
 }
 
-interface EnhancedCardProps {
-  Card: React.ComponentType<CardProps>; // ✅ Component type that accepts CardProps
-}
+// interface EnhancedCardProps {
+//   Card: React.ComponentType<CardProps>; // ✅ Component type that accepts CardProps
+// }
 
 export default function Card({ heading, plan, price, desc, isBest }: CardProps){
 
